@@ -9,8 +9,20 @@ footer {
   border-top: 1px solid #ccc;
   bottom: 0;
   display: flex;
-  height: 80px;
+  height: 100px;
   justify-content: center;
   position: absolute;
   width: 100%;
+  font-size: medium;
+  font-weight: 700;
+}
+
+/* Moving text in the footer */
+.f2 {
+  position: static;
+  color: rgb(0, 0, 0);
+  width: 76%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  float: center;
 }

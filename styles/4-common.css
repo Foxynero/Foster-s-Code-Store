@@ -1,0 +1,29 @@
+/*
+ * === Global style ===
+ */
+
+/* Body style */
+body {
+  color: #484848;
+  font: 14px Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Container style */
+.container {
+  margin: 30px auto;
+  max-width: 1000px;
+}
+
+/* Strong style */
+strong {
+  font-weight: bold;
+}
+
+/* Paragraph - Welcome note */
+p {
+  font-size: 20px;
+  display: flex;
+  text-align: left;
+  margin: 30px auto;
+  max-width: 1000px;
+}

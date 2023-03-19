@@ -4,14 +4,80 @@
 
 /* Header style */
 header {
-  background: #000000 url('../images/image_logo.png') 20px center no-repeat;
+  background: #000000; /*url('../Assets/logo.png') 20px center no-repeat;*/
   border-bottom: 1px solid #ccc;
-  height: 80px;
+  height: 60px;
   width: 100%;
+  position: static;
+  display: block;
 }
 
-.header img {
-float: center;
-max-width: 200px;
-max-height: 100px;
+/*.header .img {
+  border-radius: 50%;
+  float: center;
+  max-width: 200px;
+  max-height: 100px;
+}*/
+
+/*.header .f1{
+  background-color:yellow;
+  font-size:50px;
+  font-family: georgia;
+  font-style:italic;
+  font-weight:bold;
+  color:purple;
+  text-shadow: 2px 2px 8px #FF0000;
+  width: 50%;
+  height: 50%;
+}*/
+
+/*Links to the navigation (FAQ & T&C), button styles*/
+
+button {
+  padding: 10px 10px 10px 10px;
+  background-color:rgb(202, 198, 198);
+  margin: 4px 2px;
+  float: right;
+}
+
+.nav-link {
+    font-weight:400;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+.nav-link {
+  margin-right:20px;
+}
+
+.topnav-right {
+  float: right; 
+}
+
+.f1 {
+  position: static;
+  color: white;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  float: right;
+}
+
+/* Making images rounded and cursor to change into pointer when highlighted*/
+
+img {
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Vincee imports text on the header */
+
+h0 {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: whitesmoke;
 }

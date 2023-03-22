@@ -23,6 +23,7 @@
   height: 48px;
   margin: 12px 30px;
   width: 20%;
+  cursor: pointer;
 }
 
 /* Search button hover opacity */

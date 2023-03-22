@@ -21,9 +21,10 @@ strong {
 
 /* Paragraph - Welcome note */
 p {
+  font-weight: 700;
   font-size: 20px;
   display: flex;
-  text-align: left;
+  text-align: justify;
   margin: 30px auto;
   max-width: 1000px;
 }
